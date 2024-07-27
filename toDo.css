@@ -1,0 +1,107 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+    
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E0E1DD;
+}
+
+/* heading  */
+
+h1{
+    
+}
+.card{
+    background-color: #1B263B;
+    width: 75vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-y: scroll;
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);
+    border: none;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    
+ 
+}
+/* note design  */
+
+.note{
+
+    width: 68vw;
+   min-height:8vh;
+    background-color: #415A77;
+    margin-top: 2vh;
+    color: whitesmoke;
+    font-size: 4vw;
+    font-weight: bold;
+    font-family: ;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+/* input design */ 
+input{
+    width: 75vw;
+    height: 7vh;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    
+}
+
+
+/* app name design  */
+#appName{
+    position: relative;
+    top: -5vh;
+    font-size: 5vh;
+}
+
+
+
+/* buttons design  */
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.buttons div{
+
+    width: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+}
+
+/* button */
+
+button{
+    width: 20vw;
+    height: 5vh;
+    text-align: center;
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);
+    border-radius: 8px;
+    border: none;
+    background-color: #EDF2F4;
+    font-size: 5vw;
+    font-weight: bold;
+}
